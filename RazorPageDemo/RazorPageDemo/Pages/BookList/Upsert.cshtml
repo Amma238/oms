@@ -1,0 +1,57 @@
+﻿@*Upsert=Insert+Update*@
+@page
+@model RazorPageDemo.Pages.BookList.UpsertModel
+<br />
+<h2 class="text-info" >@(Model.Book.BookId!=0?"Edit":"Create")Book</h2>
+<div class="border container" style="padding:40px;">
+	<form method="post">
+		@if(Model.Book.BookId!=0)
+		{
+		<input type="hidden" asp-for="Book.BookId" />
+		}
+		@*Helps to give a warning for the specified input atttribute before posting the form.*@
+		<div class="text-danger" asp-asp-validation-summary="ModelOnly"></div>
+		<div class="form-group row">
+			<div class="col-2">
+				<label asp-for="Book.BookName"></label>
+			</div>
+			<div class="col-6">
+				<input asp-for="Book.BookName" class="form-control" />
+			</div>
+			<span asp-validation-for="Book.BookName" class="text-danger"></span>
+		</div>
+		<div class="form-group row">
+			<div class="col-2">
+				<label asp-for="Book.Author"></label>
+			</div>
+			<div class="col-6">
+				<input asp-for="Book.Author" class="form-control" />
+			</div>
+			<span asp-validation-for="Book.Author" class="text-danger"></span>
+		</div>
+		<div class="form-group row">
+			<div class="col-2">
+				<label asp-for="Book.ISBN"></label>
+			</div>
+			<div class="col-6">
+				<input asp-for="Book.ISBN" class="form-control" />
+			</div>
+			<span asp-validation-for="Book.ISBN" class="text-danger"></span>
+		</div>
+		<div class="form-group row">
+			<div class="col-3 offset-2">
+				<button type="submit" class="btn btn-info form-control">@(Model.Book.BookId != 0 ? "Update" : "Create")</button>
+			</div>
+			<div class="col-3 ">
+				<a asp-page="Index" class="btn btn-success form-control">Back To list</a>
+			</div>
+
+		</div>
+	</form>
+</div>
+
+@*Client side Validation*@
+@section Scripts{
+	<partial name="_ValidationScriptsPartial" />
+}
+

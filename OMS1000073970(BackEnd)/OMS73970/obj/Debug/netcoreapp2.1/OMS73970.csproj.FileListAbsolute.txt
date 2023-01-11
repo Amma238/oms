@@ -1,0 +1,14 @@
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\bin\Debug\netcoreapp2.1\OMS73970.deps.json
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\bin\Debug\netcoreapp2.1\OMS73970.runtimeconfig.json
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\bin\Debug\netcoreapp2.1\OMS73970.runtimeconfig.dev.json
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\bin\Debug\netcoreapp2.1\OMS73970.dll
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\bin\Debug\netcoreapp2.1\OMS73970.pdb
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.csproj.CoreCompileInputs.cache
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.RazorAssemblyInfo.cache
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.RazorAssemblyInfo.cs
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.AssemblyInfoInputs.cache
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.AssemblyInfo.cs
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.RazorTargetAssemblyInfo.cache
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.dll
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.pdb
+C:\Users\1000073970\source\repos\OMS73970\OMS73970\obj\Debug\netcoreapp2.1\OMS73970.csprojAssemblyReference.cache
